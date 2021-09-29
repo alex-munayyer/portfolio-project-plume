@@ -163,13 +163,13 @@ export default function Index() {
             <div className="testimonial-box">
               <div className="testimonial-1">
                 <img className="testimonial-image" src="images/Forbes-Logo.png" alt="" />
-                <p className="testimonial-text">“Plume's cloud-based algorithms might as well be magic
-                  with how they're able to serve up top speeds to every
+                <p className="testimonial-text">“Plume&apos;s cloud-based algorithms might as well be magic
+                  with how they&apos;re able to serve up top speeds to every
                   device in your home, even the ones stuck in tricky
                   corners of the house, without using massive amounts of
-                  bandwidth to punch through. Plume doesn't just provide a
-                  network that you don't have to think about, it serves up
-                  internet that's always fast, safe, and reliable.”</p>
+                  bandwidth to punch through. Plume doesn&apos;t just provide a
+                  network that you don&apos;t have to think about, it serves up
+                  internet that&apos;s always fast, safe, and reliable.”</p>
               </div>
               <div className="testimonial-2">
                 <img className="testimonial-image" src="images/logo2.png" alt="" />
