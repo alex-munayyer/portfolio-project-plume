@@ -1,0 +1,186 @@
+@media (max-width:767px) {
+  .opportunities-section1{
+    max-width: 100%;
+    background-image:url("bg-img/circular-energy.svg");
+    background-size: cover;
+    background-position-y:-34px;
+    align-items: unset;
+    background-repeat: no-repeat;
+    background-color: #F7F5F2;
+    width: 100%;
+    height: 346px;
+    display: flex;
+
+  }
+  header{
+    padding-bottom: 10px !important;
+  }
+  .opportunities-hero-title{
+    display: none;
+  }
+  .opportunities-hero-title1{
+    font-family: "OC-Rey";
+    font-size: 36px;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 48px;
+    color: #4d4d4d;
+
+  }
+    .opportunities-hero-text{
+      display: none;
+    }
+  .opportunities-hero-text1{
+    font-family: "Wigrum-Regular";
+    display: block;
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 27px;
+    color: #4d4d4d;
+
+  }
+  .opportunities-section2{
+    padding-top: 50px;
+    max-width: 1352px;
+  }
+  .select-wrap{
+    display: block;
+    width: 100%;
+  }
+  select{
+    width: 100%;
+  }
+  .wrap-section2{
+    display: flex;
+   flex-wrap: wrap;
+  }
+  .data-title{
+    font-family: "OC-Rey";
+    font-size: 22px;
+    line-height: 52px;
+    color: #4d4d4d;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .data-wrap{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .cyber-title{
+    font-family: "Wigrum-Medium";
+    font-size: 22px;
+    line-height: 26.4px;
+    color: #6269FF;
+  }
+  .cyber-text{
+    font-family: "Wigrum-Medium";
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #4d4d4d;
+  }
+  .cyber-textbox{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #4d4d4d80;
+
+  }
+  .opportunities-section3{
+    max-width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .employee-title{
+    font-family: "OC-Rey";
+    font-size:22px;
+    line-height: 36px;
+    margin: auto;
+    color: #000;
+    padding: 0 10px;
+  }
+  .employee-text{
+    text-decoration: underline;
+  }
+  select.science,.locations{
+    appearance: none;
+      width: 290px;
+      margin-left: auto;
+        margin-right: auto;
+      height: 46px;
+      text-align: left;
+      border-radius: 55px;
+      font-family: "Wigrum-Light";
+      font-size: 16px;
+      line-height: 24px;
+      color: #4d4d4d;
+      padding-left: 20px;
+
+      background-image: url("bg-img/arrow-down.png");
+      background-repeat: no-repeat;
+      background-position: 90%;
+  }
+  .science{
+    margin-top: 30px;
+  }
+  .select-wrap {
+      display: flex;
+      flex-direction: column;
+  }
+  option{
+    font-family: "Wigrum-Light";
+    font-size: 16px;
+    line-height: 24px;
+      color: #4d4d4d;
+  }
+
+}
+
+@media(min-width:767px) and (max-width:1023px){
+  .opportunities-hero-title {
+    font-family: "OC-Rey";
+    font-size: 56px;
+    line-height: 88px;
+    color: #4d4d4d;
+}
+.wrap-section2 {
+    display: flex;
+    flex-direction: row;
+}
+select.science, .locations {
+    appearance: none;
+    width: 290px;
+    margin-left: 020px;
+    height: 46px;
+    text-align: left;
+    border-radius: 55px;
+    font-family: "Wigrum-Light";
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+    padding-left: 20px;
+    background-image: url(bg-img/arrow-down.png);
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+.data-wrap {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}
+@media(min-width:1024px) and (max-width:1150px){
+  .opportunities-hero-title {
+    font-family: "OC-Rey";
+    font-size: 56px;
+    line-height: 88px;
+    color: #4d4d4d;
+}
+.data-wrap {
+    margin-left: 20px;
+    margin-right: 60px;
+}}

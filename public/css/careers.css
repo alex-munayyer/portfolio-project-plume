@@ -1,0 +1,433 @@
+.careers-section1 {
+  height: 500px;
+  width: 100%;
+  max-width: 100%;
+  background-image: url("bg-img/careers-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.careers-hero-titlebox, .careers-hero-btn {
+  width: 100%;
+}
+
+.careers-hero-textbox {
+  width: 805px;
+}
+
+.careers-subsection1 {
+  max-width: 1352px;
+}
+
+.careers-hero-title {
+  font-family: "OC-Rey";
+  font-size: 80px;
+  line-height: 88px;
+  color: #4d4d4d;
+  margin-bottom: 50px;
+}
+
+.careers-hero-text {
+  font-family: "OC-Rey";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+}
+
+.hero-btn {
+  padding: 8px 28px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  border-style: none;
+  background-color: #6269ff;
+  color: #fff;
+  font-family: "Wigrum-Medium";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.careers-subsection2 {
+  max-width: 1352px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.textbox-careers {
+  width: 30%;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.careers-imagebox1 {
+  width: 68%;
+  float: right;
+}
+
+.careers-title2 {
+  font-family: "OC-Rey";
+  font-size: 80px;
+  line-height: 88px;
+  color: #4d4d4d;
+  margin-top: 30px;
+}
+
+.careers-text2 {
+  font-family: "OC-Rey";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+}
+
+.careers-img2 {
+  width: 86%;
+  float: right;
+  height: 100%;
+}
+.careers-section3{
+  max-width: 1352px;
+  padding-top: 110px;
+  text-align: center;
+  background-image: url("bg-img/CORE.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 119px;
+  height: 850px;
+}
+.wrap-section3{
+  position: relative;
+}
+.titlebox0-careers{
+text-align: center;
+
+}
+.title0-careers{
+  text-align: center;
+  font-family: "OC-Rey";
+  font-size: 52px;
+  line-height: 52px;
+  color: #4d4d4d;
+  margin-bottom: 50px;
+}
+.textbox1-careers,.textbox2-careers,.textbox3-careers,
+.textbox4-careers,.textbox5-careers,.textbox6-careers,
+.textbox7-careers{
+  width: 278px;
+
+  position: absolute;
+}
+.title1-careers,.title2-careers,.title3-careers,
+.title4-careers,.title5-careers,.title6-careers,
+.title7-careers{
+  font-family: "Wigrum-Medium";
+   font-size: 22px;
+   line-height: 33px;
+   color: #4d4d4d;
+   font-weight:bold;
+}
+.text1-careers,.text2-careers,.text3-careers,
+.text4-careers,.text5-careers,.text6-careers,
+.text7-careers{
+  font-family: "Wigrum-Light";
+   font-size: 18px;
+   line-height: 27px;
+   color: #4d4d4d;
+}
+.textbox1-careers{
+  left: 156px;
+}
+.title1-careers{
+  text-align: right;
+}
+.text1-careers{
+  text-align: right;
+}
+.textbox2-careers {
+    left: 83px;
+    top: 330px;
+    text-align: right;
+}
+.textbox3-careers {
+    left: 156px;
+    top: 550px;
+    text-align: right;
+}
+.textbox4-careers {
+    left: 0;
+    right: 0;
+    top: 600px;
+    padding-top: 60px;
+}
+.textbox7-careers {
+    right: 164px;
+    text-align: left;
+}
+.textbox6-careers {
+    right: 101px;
+    top: 330px;
+}
+.textbox5-careers {
+    top: 550px;
+    right: 164px;
+    text-align: left;
+}
+.careers-section4{
+  padding-top: 120px;
+  max-width: 1352px;
+}
+.wrap-section4{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.imagebox-s4{
+  width: 50%;
+}
+.textbox-s4{
+  width: 50%;
+}
+.title-s4{
+  font-family: "OC-Rey";
+  font-size: 52px;
+  line-height: 60px;
+  color: #4d4d4d;
+}
+.imagbox-s4 {
+    float: left;
+    width: 51%;
+    margin-left: 100px;
+}
+.textbox-s4 {
+    width: 40%;
+    padding-left: 48px;
+    padding-right: 49px;
+}
+.text-s4{
+  font-family: "Wigrum-Light";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+}
+.careers-section5{
+  margin-top: 120px;
+  padding-top: 100px;
+  max-width: 100%;
+  background-color: rgba(139, 115, 65, 0.07);
+  padding-bottom: 100px;
+}
+.wrap-section5{
+  max-width: 1352px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.title1-s5{
+  font-family: "OC-Rey";
+  font-size: 52px;
+  line-height: 60px;
+  color: #4d4d4d;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.innerwrap1,.innerwrap2,.innerwrap3{
+  display: flex;
+}
+.textbox1-s5,.textbox2-s5,.textbox3-s5,.textbox4-s5,.textbox5-s5
+,.textbox6-s5,.textbox7-s5,.textbox8-s5,.textbox9-s5{
+  width: 33.3%;
+}
+.textbox1-s5,.textbox2-s5{
+  margin-right: 20px;
+}
+.textbox4-s5,.textbox5-s5{
+  margin-right: 20px;
+}
+.textbox7-s5,.textbox8-s5{
+    margin-right: 20px;
+}
+.textbox9-s5{
+  visibility: hidden;
+}
+.innerwrap1,.innerwrap2{
+  padding-bottom: 50px;
+}
+.careers-section9 {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+.title-s5{
+  font-family: "Wigrum Medium";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 33px;
+  color: #4d4d4d;
+}
+.text1-s5{
+  font-family: "Wigrum Light";
+  font-size: 18px;
+  line-height: 27px;
+}
+.text-s6{
+  font-family: "Wigrum Light";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+  width: 782px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.title-s6{
+  font-family: "OC-Rey";
+  font-size: 52px;
+  line-height: 60px;
+  color: #4d4d4d;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.careers-section6{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+  max-width: 1352px;
+  padding-left: 100px;
+}
+.innerwrap2-s6{
+  display: flex;
+}
+.list1,.list2,.list3{
+  width: 33.3%;
+  margin-right: 20px;
+}
+.list-wrap{
+  margin-right: ;
+  float: unset;
+  font-family: "Wigrum-Light";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+
+}
+.list-title{
+  font-family: "Wigrum-Medium";
+  font-size: 22px;
+  line-height: 33px;
+  color: #4d4d4d;
+}
+.list1-item{
+  margin-bottom: 10px;
+}
+.careers-section8{
+  padding-top: 120px;
+  max-width: 1352px;
+  display: flex;
+  padding:0 100px;
+  margin-top: 120px;
+}
+
+.title-careersfoot{
+  font-family: "Wigrum-Medium";
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #4d4d4d;
+  margin-bottom: 40px;
+}
+.text-careersfoot{
+  font-family: "Wigrum-Light";
+  font-size: 18px;
+
+  line-height: 27px;
+  color: #4d4d4d;
+}
+.careersfoot-textbox{
+  padding-right:150px;
+}
+.careers-section7{
+  max-width: 1352px;
+  padding-top: 120px;
+  display: flex;
+}
+.wrap-section7{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+
+}
+.faq-textbox{
+  width:30%;
+}
+.faq-wrap{
+  width:70%;
+}
+.faq-title {
+    line-height: 60px;
+    font-size: 52px;
+    font-family: 'OCRey-Medium';
+    padding-right: 53px;
+    margin-left: 100px;
+}
+.faq-wrap {
+    width: 70%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.faq-textbox {
+    width: 30%;
+    background-position: 0 100%;
+    background-image: url(bg-img/faq.png);
+    background-repeat: no-repeat;
+
+
+}
+.faq-box{
+  position: relative;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: rgba(77, 77, 77, 0.5);
+  padding: 15px;
+}
+.cross {
+    position: absolute;
+    right: 25px;
+    top:10px;
+    pointer-events: all;
+    width: 25px;
+    cursor: pointer;
+}
+.faq-box6{
+  border-width: 1px 0 1px 0;
+  border-color: rgba(77, 77, 77, 0.5);
+  padding: 15px;
+}
+.active1{
+  display: block !important;
+}
+.faqbox-title{
+  font-family: "Wigrum-Medium";
+  font-size: 22px;
+  line-height: 33px;
+  color: #4d4d4d;
+}
+.faqbox-text{
+  font-family: "Wigrum-Light";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+  display: none;
+}
+.employee-title {
+  font-family: "OC-Rey";
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #000;
+}
+
+.employee-text {
+  text-decoration: underline;
+}

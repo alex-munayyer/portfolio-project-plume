@@ -1,0 +1,947 @@
+@media(max-width:767px){
+
+  .careers-section1 {
+      height: 500px;
+      width: 100%;
+      max-width: 100%;
+      background-image: url(bg-img/careers-bg.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 0 20px;
+      padding: 0 25px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      text-align: center;
+  }
+
+  .careers-hero-titlebox, .careers-hero-btn {
+    width: 100%;
+  }
+
+  .careers-hero-textbox {
+    width:unset;
+  }
+
+  .careers-subsection1 {
+      max-width: 100%;
+  }
+  .careers-hero-title {
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+      margin-bottom: 50px;
+      text-align: center;
+  }
+
+  .careers-hero-text {
+      font-family: "OC-Rey";
+      font-size: 18px;
+      width: unset;
+      line-height: 27px;
+      text-align: left;
+      color: #4d4d4d;
+  }
+  .hero-btn {
+    padding: 8px 28px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    border-style: none;
+    background-color: #6269ff;
+    color: #fff;
+    font-family: "Wigrum-Medium";
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .careers-subsection2 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .textbox-careers {
+      width: 100%;
+      padding: 20px;
+      margin: 0;
+      text-align: left;
+  }
+
+  .careers-imagebox1 {
+    width: 100%;
+    float: unset;
+  }
+
+  .careers-title2 {
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+      margin-top: 30px;
+  }
+
+  .careers-text2 {
+    font-family: "OC-Rey";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4d4d4d;
+  }
+
+  .careers-img2 {
+      width: 100%;
+      float: unset;
+      height: 100%;
+  }
+  .careers-section3{
+    max-width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 119px;
+    height: unset;
+  }
+  .wrap-section3 {
+      position: relative;
+      padding: 0 25px;
+  }
+  .titlebox0-careers {
+      text-align: left;
+      padding: 0 ;
+  }
+  .title0-careers {
+      text-align: left;
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+      padding-right: 50px;
+      margin-bottom: 030px;
+  }
+  .textbox1-careers,.textbox2-careers,.textbox3-careers,
+  .textbox4-careers,.textbox5-careers,.textbox6-careers,
+  .textbox7-careers{
+    width:100%;
+    position: unset;
+  }
+  .title1-careers,.title2-careers,.title3-careers,
+  .title4-careers,.title5-careers,.title6-careers,
+  .title7-careers{
+    font-family: "Wigrum-Medium";
+     font-size: 22px;
+     line-height: 33px;
+     color: #4d4d4d;
+     font-weight:bold;
+  }
+  .text1-careers,.text2-careers,.text3-careers,
+  .text4-careers,.text5-careers,.text6-careers,
+  .text7-careers{
+    font-family: "Wigrum-Light";
+     font-size: 18px;
+     line-height: 27px;
+     color: #4d4d4d;
+  }
+
+  .title1-careers{
+    text-align: left;
+  }
+  .text1-careers{
+    text-align: left;
+  }
+  .textbox2-careers {
+
+      text-align: left;
+  }
+  .textbox3-careers {
+
+      text-align: left;
+  }
+  .textbox4-careers {
+  text-align: left;
+      padding-top: 0px;
+  }
+  .textbox7-careers {
+
+      text-align: left;
+  }
+.textbox6-careers {
+        text-align: left;
+}
+  .textbox5-careers {
+
+      text-align: left;
+  }
+  .careers-section4{
+    padding-top: 0px;
+    max-width:100%;
+    margin-top: 60px;
+  }
+  .wrap-section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+  }
+  .imagebox-s4{
+    width: 100%;
+  }
+  .textbox-s4{
+    width:100%;
+  }
+  .title-s4{
+    font-family: "OC-Rey";
+    font-size: 36px;
+    line-height: 39.6px;
+    color: #4d4d4d;
+  }
+  .imagbox-s4 {
+      float: unset;
+      width:100%;
+      margin-left: 0;
+      margin-top: 30px;
+  }
+  .image-s4 {
+    width: 100%;
+}
+  .textbox-s4 {
+      width:100%;
+      padding-left: 25px;
+      padding-right:25px;
+  }
+  .text-s4{
+    font-family: "Wigrum-Light";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4d4d4d;
+  }
+  .careers-section5 {
+      margin-top: 0;
+      padding-top: 50px;
+      max-width: 100%;
+      background-color: rgba(139, 115, 65, 0.07);
+      padding-bottom: 30px;
+  }
+  .wrap-section5 {
+      max-width: 100%;
+      padding-left: 25px;
+      padding-right: 25px;
+  }
+  .title1-s5 {
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+      text-align: left;
+      padding-bottom: 30px;
+  }
+  .innerwrap1, .innerwrap2, .innerwrap3 {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .textbox1-s5, .textbox2-s5, .textbox3-s5, .textbox4-s5, .textbox5-s5, .textbox6-s5, .textbox7-s5, .textbox8-s5, .textbox9-s5 {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .textbox1-s5,.textbox2-s5{
+    margin-right: 20px;
+  }
+  .textbox4-s5,.textbox5-s5{
+    margin-right: 20px;
+  }
+  .textbox7-s5,.textbox8-s5{
+      margin-right: 20px;
+  }
+  .textbox9-s5{
+  display: none;
+  }
+  .innerwrap1,.innerwrap2{
+    padding-bottom:  0;
+  }
+  .careers-section9 {
+    max-width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .title-s5{
+    font-family: "Wigrum Medium";
+    font-size: 22px;
+    line-height: 33px;
+    color: #4d4d4d;
+  }
+  .text1-s5{
+    font-family: "Wigrum Light";
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .text-s6{
+    font-family: "Wigrum Light";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4d4d4d;
+    width: unset;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+  .title-s6{
+    font-family: "OC-Rey";
+    font-size: 36px;
+    line-height: 39.6px;
+    color: #4d4d4d;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .careers-section6 {
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 60px;
+      max-width: 100%;
+      padding-left: 0;
+  }
+  .innerwrap2-s6{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list1,.list2,.list3{
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .list-wrap{
+    margin-right: ;
+    float: unset;
+    font-family: "Wigrum-Light";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4d4d4d;
+
+  }
+  .list-title{
+    font-family: "Wigrum-Medium";
+    font-size: 22px;
+    line-height: 33px;
+    color: #4d4d4d;
+  }
+  .list1-item{
+    margin-bottom: 10px;
+  }
+  .careers-section8 {
+      padding-top: 120px;
+      max-width: 100%;
+      display: flex;
+      padding: 0 25px;
+      margin-top: 60px;
+      flex-wrap: wrap;
+  }
+
+  .title-careersfoot {
+      font-family: "Wigrum-Medium";
+      font-size: 44px;
+      font-weight: bold;
+      line-height: 60px;
+      text-align: center;
+      color: #4d4d4d;
+      margin-bottom: 40px;
+  }
+  .text-careersfoot{
+    font-family: "Wigrum-Light";
+    font-size: 18px;
+
+    line-height: 27px;
+    color: #4d4d4d;
+  }
+  .careersfoot-textbox {
+      padding-right: 0;
+  }
+  .imageboxfoot-careers {
+    width: 100%;
+}
+ .careers-img {
+    width: 100%;
+}
+  .careers-section7 {
+      max-width: 100%;
+      padding-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .wrap-section7 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .faq-textbox{
+    width:100%;
+  }
+
+  .faq-title {
+      line-height: 39.6px;
+      font-size: 36px;
+      font-family: 'OCRey-Medium';
+      padding-right: 10px;
+      margin-left: 25px;
+  }
+  .faq-wrap {
+      width: 100%;
+      margin-left: 25px;
+      margin-right: 25px;
+      margin-top: 20px;
+  }
+  .faq-textbox {
+      width: 100%;
+      background-position: 0 100%;
+      background-image: none;
+      background-repeat: no-repeat;
+
+
+  }
+  .faq-box{
+    position: relative;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: rgba(77, 77, 77, 0.5);
+    padding: 15px 50px 15px 0;
+  }
+  .cross {
+      position: absolute;
+      right: 25px;
+      top:20px;
+      pointer-events: all;
+      width: 25px;
+      cursor: pointer;
+  }
+  .faq-box6{
+    border-width: 1px 0 1px 0;
+    border-color: rgba(77, 77, 77, 0.5);
+    padding: 15px 50px 15px 0;
+  }
+  .active1{
+    display: block !important;
+  }
+  .faqbox-title{
+    font-family: "Wigrum-Medium";
+    font-size: 22px;
+    line-height: 33px;
+    color: #4d4d4d;
+  }
+  .faqbox-text{
+    font-family: "Wigrum-Light";
+    font-size: 18px;
+    line-height: 27px;
+    color: #4d4d4d;
+    display: none;
+  }
+  .employee-title{
+  font-family: "OC-Rey";
+  font-size:22px;
+  line-height: 36px;
+  margin: auto;
+  color: #000;
+  padding: 0 10px;
+  }
+
+  .employee-text {
+    text-decoration: underline;
+  }
+
+  }
+  @media(max-width:350px){
+    .careers-hero-title {
+        font-family: "OC-Rey";
+        font-size: 33px;
+        text-align: left;
+        line-height: 39.6px;
+        color: #4d4d4d;
+        margin-bottom: 50px;
+    }
+
+.title0-careers {
+    text-align: left;
+    font-family: "OC-Rey";
+    font-size: 33px;
+    line-height: 39.6px;
+    color: #4d4d4d;
+    padding-right: 50px;
+    margin-bottom: 030px;
+}
+.title-s4 {
+    font-family: "OC-Rey";
+    font-size: 31px;
+    line-height: 39.6px;
+    color: #4d4d4d;
+}
+.faq-title {
+    line-height: 39.6px;
+    font-size: 33px;
+    font-family: 'OCRey-Medium';
+    padding-right: 10px;
+    margin-left: 25px;
+}
+.cross {
+    position: absolute;
+    right: 9px;
+    top: 20px;
+    pointer-events: all;
+    width: 25px;
+    cursor: pointer;
+}
+  }
+  @media(min-width:768px)and (max-width:1150px){
+    .careers-section1 {
+        height:auto;
+        width: 100%;
+        max-width: 100%;
+        background-image: url(bg-img/careers-bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0 20px;
+        padding: 0 25px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .careers-hero-titlebox, .careers-hero-btn {
+      width: 100%;
+    }
+
+    .careers-hero-textbox {
+      width:unset;
+    }
+
+    .careers-subsection1 {
+        max-width: 100%;
+    }
+    .careers-hero-title {
+        font-family: "OC-Rey";
+        font-size: 36px;
+        line-height: 39.6px;
+        color: #4d4d4d;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .careers-hero-text {
+        font-family: "OC-Rey";
+        font-size: 18px;
+        width: unset;
+        line-height: 27px;
+        text-align: left;
+        color: #4d4d4d;
+    }
+    .hero-btn {
+      padding: 8px 28px;
+      border-radius: 50px;
+      margin-bottom: 50px;
+      border-style: none;
+      background-color: #6269ff;
+      color: #fff;
+      font-family: "Wigrum-Medium";
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .careers-subsection2 {
+      max-width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .textbox-careers {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .careers-imagebox1 {
+      width: 100%;
+      float: unset;
+    }
+
+    .careers-title2 {
+        font-family: "OC-Rey";
+        font-size: 36px;
+        line-height: 39.6px;
+        color: #4d4d4d;
+        margin-top: 30px;
+    }
+
+    .careers-text2 {
+      font-family: "OC-Rey";
+      font-size: 18px;
+      line-height: 27px;
+      color: #4d4d4d;
+    }
+
+    .careers-img2 {
+        width: 100%;
+        float: unset;
+        height: 100%;
+    }
+    .careers-section3{
+      max-width: 100%;
+      padding-top: 50px;
+      text-align: center;
+      background-image: none;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-position: 50% 119px;
+      height: unset;
+    }
+    .wrap-section3 {
+        position: relative;
+        padding: 0 25px;
+    }
+    .titlebox0-careers {
+        text-align: left;
+        padding: 0 ;
+    }
+    .title0-careers {
+        text-align: left;
+        font-family: "OC-Rey";
+        font-size: 36px;
+        line-height: 39.6px;
+        color: #4d4d4d;
+        padding-right: 50px;
+        margin-bottom: 030px;
+    }
+    .textbox1-careers,.textbox2-careers,.textbox3-careers,
+    .textbox4-careers,.textbox5-careers,.textbox6-careers,
+    .textbox7-careers{
+      width:100%;
+      position: unset;
+    }
+    .title1-careers,.title2-careers,.title3-careers,
+    .title4-careers,.title5-careers,.title6-careers,
+    .title7-careers{
+      font-family: "Wigrum-Medium";
+       font-size: 22px;
+       line-height: 33px;
+       color: #4d4d4d;
+       font-weight:bold;
+    }
+    .text1-careers,.text2-careers,.text3-careers,
+    .text4-careers,.text5-careers,.text6-careers,
+    .text7-careers{
+      font-family: "Wigrum-Light";
+       font-size: 18px;
+       line-height: 27px;
+       color: #4d4d4d;
+    }
+
+    .title1-careers{
+      text-align: left;
+    }
+    .text1-careers{
+      text-align: left;
+    }
+    .textbox2-careers {
+
+        text-align: left;
+    }
+    .textbox3-careers {
+
+        text-align: left;
+    }
+    .textbox4-careers {
+    text-align: left;
+        padding-top: 0px;
+    }
+    .textbox7-careers {
+
+        text-align: left;
+    }
+  .textbox6-careers {
+          text-align: left;
+  }
+    .textbox5-careers {
+
+        text-align: left;
+    }
+    .careers-section4{
+      padding-top: 0px;
+      max-width:100%;
+      margin-top: 60px;
+    }
+    .wrap-section4{
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap-reverse;
+    }
+    .imagebox-s4{
+      width: 100%;
+    }
+    .textbox-s4{
+      width:100%;
+    }
+    .title-s4{
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+    }
+    .imagbox-s4 {
+        float: unset;
+        width:100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .image-s4 {
+      width: 100%;
+  }
+    .textbox-s4 {
+        width:100%;
+        padding-left: 25px;
+        padding-right:25px;
+    }
+    .text-s4{
+      font-family: "Wigrum-Light";
+      font-size: 18px;
+      line-height: 27px;
+      color: #4d4d4d;
+    }
+    .careers-section5 {
+        margin-top: 0;
+        padding-top: 50px;
+        max-width: 100%;
+        background-color: rgba(139, 115, 65, 0.07);
+        padding-bottom: 30px;
+    }
+    .wrap-section5 {
+        max-width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .title1-s5 {
+        font-family: "OC-Rey";
+        font-size: 36px;
+        line-height: 39.6px;
+        color: #4d4d4d;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+    .innerwrap1, .innerwrap2, .innerwrap3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .textbox1-s5, .textbox2-s5, .textbox3-s5, .textbox4-s5, .textbox5-s5, .textbox6-s5, .textbox7-s5, .textbox8-s5, .textbox9-s5 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .textbox1-s5,.textbox2-s5{
+      margin-right: 20px;
+    }
+    .textbox4-s5,.textbox5-s5{
+      margin-right: 20px;
+    }
+    .textbox7-s5,.textbox8-s5{
+        margin-right: 20px;
+    }
+    .textbox9-s5{
+    display: none;
+    }
+    .innerwrap1,.innerwrap2{
+      padding-bottom:  0;
+    }
+    .careers-section9 {
+      max-width: 100%;
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .title-s5{
+      font-family: "Wigrum Medium";
+      font-size: 22px;
+      line-height: 33px;
+      color: #4d4d4d;
+    }
+    .text1-s5{
+      font-family: "Wigrum Light";
+      font-size: 18px;
+      line-height: 27px;
+    }
+    .text-s6{
+      font-family: "Wigrum Light";
+      font-size: 18px;
+      line-height: 27px;
+      color: #4d4d4d;
+      width: unset;
+      margin-bottom: 50px;
+      text-align: left;
+    }
+    .title-s6{
+      font-family: "OC-Rey";
+      font-size: 36px;
+      line-height: 39.6px;
+      color: #4d4d4d;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .careers-section6 {
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 60px;
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .innerwrap2-s6{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .list1,.list2,.list3{
+      width: 100%;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+    .list-wrap{
+      margin-right: ;
+      float: unset;
+      font-family: "Wigrum-Light";
+      font-size: 18px;
+      line-height: 27px;
+      color: #4d4d4d;
+
+    }
+    .list-title{
+      font-family: "Wigrum-Medium";
+      font-size: 22px;
+      line-height: 33px;
+      color: #4d4d4d;
+    }
+    .list1-item{
+      margin-bottom: 10px;
+    }
+    .careers-section8 {
+        padding-top: 120px;
+        max-width: 100%;
+        display: flex;
+        padding: 0 25px;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+
+    .title-careersfoot {
+        font-family: "Wigrum-Medium";
+        font-size: 44px;
+        font-weight: bold;
+        line-height: 60px;
+        text-align: center;
+        color: #4d4d4d;
+        margin-bottom: 40px;
+    }
+    .text-careersfoot{
+      font-family: "Wigrum-Light";
+      font-size: 18px;
+
+      line-height: 27px;
+      color: #4d4d4d;
+    }
+    .careersfoot-textbox {
+        padding-right: 0;
+    }
+    .imageboxfoot-careers {
+      width: 100%;
+
+      display: flex;
+
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+  }
+  .careers-img {
+      margin-top: 20px;
+      width: 84%;
+     
+  }
+    .careers-section7 {
+        max-width: 100%;
+        padding-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrap-section7 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .faq-textbox{
+      width:100%;
+    }
+
+    .faq-title {
+        line-height: 39.6px;
+        font-size: 36px;
+        font-family: 'OCRey-Medium';
+        padding-right: 10px;
+        margin-left: 25px;
+    }
+    .faq-wrap {
+        width: 100%;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    .faq-textbox {
+        width: 100%;
+        background-position: 0 100%;
+        background-image: none;
+        background-repeat: no-repeat;
+
+
+    }
+    .faq-box{
+      position: relative;
+      border-style: solid;
+      border-width: 1px 0 0 0;
+      border-color: rgba(77, 77, 77, 0.5);
+      padding: 15px 50px 15px 0;
+    }
+    .cross {
+        position: absolute;
+        right: 25px;
+        top:20px;
+        pointer-events: all;
+        width: 25px;
+        cursor: pointer;
+    }
+    .faq-box6{
+      border-width: 1px 0 1px 0;
+      border-color: rgba(77, 77, 77, 0.5);
+      padding: 15px 50px 15px 0;
+    }
+    .active1{
+      display: block !important;
+    }
+    .faqbox-title{
+      font-family: "Wigrum-Medium";
+      font-size: 22px;
+      line-height: 33px;
+      color: #4d4d4d;
+    }
+    .faqbox-text{
+      font-family: "Wigrum-Light";
+      font-size: 18px;
+      line-height: 27px;
+      color: #4d4d4d;
+      display: none;
+    }
+    .employee-title{
+    font-family: "OC-Rey";
+    font-size:22px;
+    line-height: 36px;
+    margin: auto;
+    color: #000;
+    padding: 0 10px;
+    }
+
+    .employee-text {
+      text-decoration: underline;
+    }
+
+  }

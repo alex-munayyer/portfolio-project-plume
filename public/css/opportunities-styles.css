@@ -1,0 +1,125 @@
+.opportunities-section1{
+  max-width: 100%;
+  background-image:url("bg-img/bg-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F7F5F2;
+
+  width: 100%;
+  height: 520px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+header{
+  padding-bottom: 10px !important;
+}
+.opportunities-hero-title{
+  font-family: "OC-Rey";
+  font-size: 80px;
+  line-height: 88px;
+  color: #4d4d4d;
+
+}
+  .opportunities-hero-text1{
+    display: none;
+  }
+.opportunities-hero-title1{
+  display: none;
+}
+.opportunities-hero-text{
+  font-family: "Wigrum-Regular";
+  font-size: 18px;
+  line-height: 27px;
+  color: #4d4d4d;
+
+}
+.opportunities-section2{
+  padding-top: 110px;
+  max-width: 1352px;
+}
+.select-wrap{
+  display: block;
+}
+select{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.wrap-section2{
+  display: flex;
+
+}
+.data-title{
+  font-family: "OC-Rey";
+  font-size: 36px;
+  line-height: 52px;
+  color: #4d4d4d;
+  margin-bottom: 40px;
+}
+.cyber-title{
+  font-family: "Wigrum-Medium";
+  font-size: 22px;
+  line-height: 26.4px;
+  color: #6269FF;
+}
+.cyber-text{
+  font-family: "Wigrum-Medium";
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #4d4d4d;
+}
+.cyber-textbox{
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #4d4d4d80;
+
+}
+.opportunities-section3{
+  max-width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 120px;
+}
+.employee-title{
+  font-family: "OC-Rey";
+  font-size:36px;
+  line-height: 48px;
+  color: #000;
+}
+.employee-text{
+  text-decoration: underline;
+}
+select.science,.locations{
+  appearance: none;
+    width: 290px;
+    margin-left: 70px;
+    height: 46px;
+    text-align: left;
+    border-radius: 55px;
+    font-family: "Wigrum-Light";
+    font-size: 16px;
+    line-height: 24px;
+    color: #4d4d4d;
+    padding-left: 20px;
+
+    background-image: url("bg-img/arrow-down.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+.science{
+  margin-top: 50px;
+}
+.select-wrap {
+    display: flex;
+    flex-direction: column;
+}
+option{
+  font-family: "Wigrum-Light";
+  font-size: 16px;
+  line-height: 24px;
+    color: #4d4d4d;
+}
