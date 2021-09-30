@@ -1,14 +1,14 @@
-import Head from 'next/head'
+//import Head from 'next/head'
 
 const HomePagePreview = ({ entry }) => {
-    const titleTag = entry.getIn(['data', 'titleTag']);
+    /*const titleTag = entry.getIn(['data', 'titleTag']);
     const metaDescription = entry.getIn(['data', 'metaDescription']);
     const ogTitle = entry.getIn(['data', 'ogTitle']);
     const ogDescription = entry.getIn(['data', 'ogDescription']);
     const ogImage = entry.getIn(['data', 'ogImage']);
     const twitterTitle = entry.getIn(['data', 'twitterTitle']);
     const twitterDescription = entry.getIn(['data', 'twitterDescription']);
-    const twitterImage = entry.getIn(['data', 'twitterImage']);
+    const twitterImage = entry.getIn(['data', 'twitterImage']);*/
     const sectionOneDescription = entry.getIn(['data', 'sectionOneDescription']);
     const sectionSixHeadline = entry.getIn(['data', 'sectionSixHeadline']);
     const sectionSixDescription = entry.getIn(['data', 'sectionSixDescription']);
@@ -16,46 +16,6 @@ const HomePagePreview = ({ entry }) => {
 
     return (
         <div>
-            <Head>
-                <meta charSet="utf-8" />
-                {/* Title Tag */}
-                <title>{titleTag}</title>
-
-                {/* Meta Description */}
-                <meta content={metaDescription} name="description" />
-
-                {/* OG Title */}
-                <meta content={ogTitle} property="og:title" />
-
-                {/* OG Description */}
-                <meta content={ogDescription} property="og:description" />
-
-                {/* OG Image */}
-                <meta content={ogImage} property="og:image" />
-
-                {/* Twitter Title */}
-                <meta content={twitterTitle} property="twitter:title" />
-
-                {/* Twitter Description */}
-                <meta content={twitterDescription} property="twitter:description" />
-
-                {/* Twitter Image */}
-                <meta content={twitterImage} property="twitter:image" />
-
-                <meta property="og:type" content="website" />
-                <meta content="summary_large_image" name="twitter:card" />
-                <meta content="width=device-width, initial-scale=1" name="viewport" />
-
-                {/* favicon*/}
-                <link href="images/favicon.png" rel="icon" type="image/png" />
-
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
-                <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.css" />
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
-                <link rel="stylesheet" href="css/styles.css" />
-                <link rel="stylesheet" href="css/responsive-styles.css" />
-            </Head>
             <div>
                 <header>
                     <nav>
