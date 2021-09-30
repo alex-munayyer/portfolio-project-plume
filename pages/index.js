@@ -1,19 +1,9 @@
 import Head from 'next/head'
 import { attributes } from '../content/home.md';
-import { useEffect, useState } from 'react'
-import netlifyAuth from '../netlifyIdentity/netlifyAuth'
+import Script from 'next/script'
 
 export default function Index() {
   let { title, date, cats } = attributes;
-
-  let [loggedIn, setLoggedIn] = useState(netlifyAuth.isAuthenticated)
-
-  useEffect(() => {
-    netlifyAuth.initialize((user) => {
-      setLoggedIn(!!user)
-    })
-  }, [loggedIn])
-  
   return (
     <div>
       <Head>
@@ -315,6 +305,7 @@ export default function Index() {
           </section>
         </section>
       </div>
+      <Script id="script-1" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
     </div>
   )
 }
