@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import HomePagePreview from '../pages/index'
+import HomePagePreview from '../previews/HomePagePreview'
 
 const Admin = () => {
     useEffect(() => {

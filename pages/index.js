@@ -2,17 +2,14 @@ import Head from 'next/head'
 import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
-export default function Index({ entry }) {
-  let { title, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, TwitterDescription, twitterImage, sectionOneDescription } = attributes;
-  const sectionSixHeadline = entry.getIn(['data', 'sectionSixHeadline']);
-  const sectionSixDescription = entry.getIn(['data', 'sectionSixDescription']);
-  const sectionSixImage = entry.getIn(['data', 'sectionSixImage']);
+export default function Index() {
+  let { titleTag, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, twitterDescription, twitterImage, sectionOneDescription, sectionSixHeadline, sectionSixDescription, sectionSixImage } = attributes;
   return (
     <div>
       <Head>
         <meta charSet="utf-8" />
         {/* Title Tag */}
-        <title>{title}</title>
+        <title>{titleTag}</title>
 
         {/* Meta Description */}
         <meta content={metaDescription} name="description" />
@@ -30,7 +27,7 @@ export default function Index({ entry }) {
         <meta content={twitterTitle} property="twitter:title" />
 
         {/* Twitter Description */}
-        <meta content={TwitterDescription} property="twitter:description" />
+        <meta content={twitterDescription} property="twitter:description" />
 
         {/* Twitter Image */}
         <meta content={twitterImage} property="twitter:image" />
