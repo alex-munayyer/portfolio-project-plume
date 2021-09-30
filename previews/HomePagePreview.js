@@ -25,7 +25,14 @@ export default class HomePagePreview extends React.Component {
         const { entry, fieldsMetaData } = this.props;
         //const author = fieldsMetaData.getIn(['authors', data.author]);
 
-        return <article><h2>{entry.getIn(['data', 'titleTag'])}</h2>
-        </article>
+        return <section className="section-6">
+            <div className="textbox-globe">
+                <h2 className="title-globe">{entry.getIn(['data', 'sectionSixHeadline'])}</h2>
+                <p className="text-globe">{entry.getIn(['data', 'sectionSixDescription'])}</p>
+            </div>
+            <div className="imagebox-globe">
+                <img className="image-globe" src={entry.getIn(['data', 'sectionSixImage'])} alt="" />
+            </div>
+        </section>
     }
 }
