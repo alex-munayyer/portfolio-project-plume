@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import { Component } from 'react'
+import Script from 'next/script'
 import { attributes } from '../content/home.md';
 
-export default class Home extends Component {
-  render() {
+export default function Index() {
   let { title, date, cats } = attributes;
   return (
     <div>
@@ -19,7 +18,7 @@ export default class Home extends Component {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/responsive-styles.css" />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
       </Head>
       <div>
         <header>
@@ -309,5 +308,4 @@ export default class Home extends Component {
       </div>
     </div>
   )
-}
 }
