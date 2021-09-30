@@ -15,14 +15,8 @@ const HomePagePreview = ({ entry }) => {
     const sectionSixImage = entry.getIn(['data', 'sectionSixImage']);
 
     return (
-        <section>
-            <div>
-                <h2>{sectionSixHeadline}</h2>
-                <p>{sectionSixDescription}</p>
-            </div>
-            <div>
-                <img src={sectionSixImage} />
-            </div>
-        </section>
+        <div>
+            {/* Render the preview here... */}
+        </div>
     )
 }
