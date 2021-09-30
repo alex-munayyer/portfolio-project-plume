@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Script from 'next/script'
 import { attributes } from '../content/home.md';
+import React from "react";
 
 export default function Index() {
   let { title, date, cats } = attributes;
@@ -18,7 +18,9 @@ export default function Index() {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossOrigin="anonymous" />
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="stylesheet" href="css/responsive-styles.css" />
-        <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
+        <React.Fragment>
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"/>
+        </React.Fragment>
       </Head>
       <div>
         <header>
