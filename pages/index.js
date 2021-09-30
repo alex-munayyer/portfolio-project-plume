@@ -1,7 +1,9 @@
 import Head from 'next/head'
+import { Component } from 'react'
 import { attributes } from '../content/home.md';
 
-export default function Index() {
+export default class Home extends Component {
+  render() {
   let { title, date, cats } = attributes;
   return (
     <div>
@@ -307,4 +309,5 @@ export default function Index() {
       </div>
     </div>
   )
+}
 }
