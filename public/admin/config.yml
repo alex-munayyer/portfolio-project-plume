@@ -14,3 +14,7 @@ collections:
       fields:
         - { label: "Title Tag", name: "titleTag", widget: "string"}
         - { label: "Meta Description", name: "metaDescription", widget: "string"}
+        - { label: "OG Title", name: "ogTitle", widget: "string"}
+        - { label: "OG Description", name: "ogDescription", widget: "string"}
+        - { label: "Twitter Title", name: "twiterTitle", widget: "string"}
+        - { label: "Twitter Description", name: "twiterDescription", widget: "string"}

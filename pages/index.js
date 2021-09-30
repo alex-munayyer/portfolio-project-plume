@@ -3,7 +3,7 @@ import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
 export default function Index() {
-  let { title, metaDescription } = attributes;
+  let { title, metaDescription, ogTitle, ogDescription, twitterTitle, TwitterDescription } = attributes;
   return (
     <div>
       <Head>
@@ -15,19 +15,19 @@ export default function Index() {
         <meta content={metaDescription} name="description" />
 
         {/* OG Title */}
-        <meta content="Bump - Get Micro-Advances To Fund Your Music. Keep 100% Ownership" property="og:title" />
+        <meta content={ogTitle} property="og:title" />
         
         {/* OG Description */}
-        <meta content="From recording to releases, touring, marketing, and promoting, music products and services are important to an artist's continued success but come with a cost that may be beyond an artist's reach. But you don't have to compromise because of a lack of finances. Sign up with Bump to get funding for your business" property="og:description" />
+        <meta content={ogDescription} property="og:description" />
         
         {/* OG Image */}
         <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="og:image" />
         
         {/* Twitter Title */}
-        <meta content="Bump - Get Micro-Advances To Fund Your Music. Keep 100% Ownership" property="twitter:title" />
+        <meta content={twitterTitle} property="twitter:title" />
         
         {/* Twitter Description */}
-        <meta content="From recording to releases, touring, marketing, and promoting, music products and services are important to an artist's continued success but come with a cost that may be beyond an artist's reach. But you don't have to compromise because of a lack of finances. Sign up with Bump to get funding for your business" property="twitter:description" />
+        <meta content={TwitterDescription} property="twitter:description" />
         
         {/* Twitter Image */}
         <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="twitter:image" />
