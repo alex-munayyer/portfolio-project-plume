@@ -3,7 +3,7 @@ import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
 export default function Index() {
-  let { title, date, cats } = attributes;
+  let { title, metaDescription } = attributes;
   return (
     <div>
       <Head>
