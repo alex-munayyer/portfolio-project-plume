@@ -3,7 +3,7 @@ import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
 export default function Index() {
-  let { title, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, TwitterDescription, twitterImage } = attributes;
+  let { title, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, TwitterDescription, twitterImage, sectionOneDescription } = attributes;
   return (
     <div>
       <Head>
@@ -16,26 +16,26 @@ export default function Index() {
 
         {/* OG Title */}
         <meta content={ogTitle} property="og:title" />
-        
+
         {/* OG Description */}
         <meta content={ogDescription} property="og:description" />
-        
+
         {/* OG Image */}
         <meta content={ogImage} property="og:image" />
-        
+
         {/* Twitter Title */}
         <meta content={twitterTitle} property="twitter:title" />
-        
+
         {/* Twitter Description */}
         <meta content={TwitterDescription} property="twitter:description" />
-        
+
         {/* Twitter Image */}
         <meta content={twitterImage} property="twitter:image" />
-        
+
         <meta property="og:type" content="website" />
         <meta content="summary_large_image" name="twitter:card" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        
+
         {/* favicon*/}
         <link href="images/favicon.png" rel="icon" type="image/png" />
 
@@ -81,11 +81,7 @@ export default function Index() {
             <h2 className="title-race">In the race to create smart home devices, something was lost</h2>
           </div>
           <div className="text-box">
-            <p className="race-text">Most companies failed to recognize that a device is only as intelligent as the network it’s connected to.
-              ISPs were blind to performance inside the home and relied on expensive, time consuming
-              truck rolls to investigate concerns.
-              As a result, customers are stuck with generic WiFi, unsafe networks, and a gaping
-              hole where awesome experiences could be. We set to work, designing a new way forward from scratch.</p>
+            <p className="race-text">{sectionOneDescription}</p>
           </div>
           <div className="group-image">
             <img className="group-image1" src="images/group.svg" alt="" />
@@ -337,4 +333,6 @@ export default function Index() {
   )
 }
 
-//What is everything we want to enable
+//1. Figure out how to enable preview mode in Netlify CMs
+//2. Figure out how to enable bulk body content to get edited within the Netlify CMS
+//3. Add functionality to edit certain images on the home page

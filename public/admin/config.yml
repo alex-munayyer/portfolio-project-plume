@@ -20,3 +20,4 @@ collections:
         - { label: "Twitter Title", name: "twitterTitle", widget: "string"}
         - { label: "Twitter Description", name: "twitterDescription", widget: "string"}
         - { label: "Twitter Image", name: "twitterImage", widget: "image"}
+        - {label: "Section 1 Test", name: "sectionOneDescription", widget: "text"}
