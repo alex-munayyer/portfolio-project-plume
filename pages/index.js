@@ -2,8 +2,11 @@ import Head from 'next/head'
 import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
-export default function Index() {
+export default function Index({ entry }) {
   let { title, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, TwitterDescription, twitterImage, sectionOneDescription } = attributes;
+  const sectionSixHeadline = entry.getIn(['data', 'sectionSixHeadline']);
+  const sectionSixDescription = entry.getIn(['data', 'sectionSixDescription']);
+  const sectionSixImage = entry.getIn(['data', 'sectionSixImage']);
   return (
     <div>
       <Head>
@@ -136,11 +139,11 @@ export default function Index() {
         </section>
         <section className="section-6">
           <div className="textbox-globe">
-            <h2 className="title-globe">We’ve rapidly expanded around the globe</h2>
-            <p className="text-globe">We’re headquartered in Silicon Valley, California and have locations in Poland, Slovenia, Switzerland, Canada, Japan, and Taiwan. As an international company, we serve households in over 23 countries (and over 20 million homes), and that number is ever-growing. Our staff represents a diverse swath of talent, adding to our drive to bring new, cutting-edge smart home experiences to as many different people with different needs as possible.</p>
+            <h2 className="title-globe">{sectionSixHeadline}</h2>
+            <p className="text-globe">{sectionSixDescription}</p>
           </div>
           <div className="imagebox-globe">
-            <img className="image-globe" src="images/Group-3.png" alt="" />
+            <img className="image-globe" src={sectionSixImage} alt="" />
           </div>
         </section>
         <section className="section-7">
