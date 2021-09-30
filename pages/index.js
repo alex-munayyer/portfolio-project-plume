@@ -3,7 +3,7 @@ import { attributes } from '../content/home.md';
 import Script from 'next/script'
 
 export default function Index() {
-  let { title, metaDescription, ogTitle, ogDescription, twitterTitle, TwitterDescription } = attributes;
+  let { title, metaDescription, ogTitle, ogDescription, ogImage, twitterTitle, TwitterDescription, twitterImage } = attributes;
   return (
     <div>
       <Head>
@@ -21,7 +21,7 @@ export default function Index() {
         <meta content={ogDescription} property="og:description" />
         
         {/* OG Image */}
-        <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="og:image" />
+        <meta content={ogImage} property="og:image" />
         
         {/* Twitter Title */}
         <meta content={twitterTitle} property="twitter:title" />
@@ -30,7 +30,7 @@ export default function Index() {
         <meta content={TwitterDescription} property="twitter:description" />
         
         {/* Twitter Image */}
-        <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="twitter:image" />
+        <meta content={twitterImage} property="twitter:image" />
         
         <meta property="og:type" content="website" />
         <meta content="summary_large_image" name="twitter:card" />
