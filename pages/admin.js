@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import homePagePreview from '../pages/index'
+import HomePagePreview from '../previews/HomePagePreview'
 
 const Admin = () => {
     useEffect(() => {
@@ -7,7 +7,7 @@ const Admin = () => {
             const CMS = (await import('netlify-cms-app')).default
             CMS.init()
             // hook our preview up to the cms
-            CMS.registerPreviewTemplate('Home Page Content', homePagePreview)
+            CMS.registerPreviewTemplate('Home Page Content', HomePagePreview)
         })()
     }, [])
 

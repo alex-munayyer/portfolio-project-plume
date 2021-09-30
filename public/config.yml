@@ -20,4 +20,7 @@ collections:
         - { label: "Twitter Title", name: "twitterTitle", widget: "string"}
         - { label: "Twitter Description", name: "twitterDescription", widget: "string"}
         - { label: "Twitter Image", name: "twitterImage", widget: "image"}
-        - {label: "Section 1 Test", name: "sectionOneDescription", widget: "text"}
+        - { label: "Section 1 Test", name: "sectionOneDescription", widget: "text"}
+        - { label: "Section Six Headline", name: "sectionSixHeadline", widget: "text"}
+        - { label: "Section Six Description", name: "sectionSixDescription", widget: "text"}
+        - { label: "Section Six Image", name: "sectionSixImage", widget: "image"}
