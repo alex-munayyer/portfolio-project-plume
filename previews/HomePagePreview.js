@@ -23,7 +23,6 @@ import React from 'react'
 export default class HomePagePreview extends React.Component {
     render() {
         const { entry, fieldsMetaData } = this.props;
-        //const author = fieldsMetaData.getIn(['authors', data.author]);
 
         return <section className="section-6">
             <div className="textbox-globe">
