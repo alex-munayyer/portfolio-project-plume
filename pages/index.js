@@ -8,8 +8,25 @@ export default function Index() {
     <div>
       <Head>
         <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        {/* Title Tag */}
         <title>{title}</title>
+
+        {/* Meta Description */}
+        <meta content={metaDescription} name="description" />
+        
+        <meta content="Bump - Get Micro-Advances To Fund Your Music. Keep 100% Ownership" property="og:title" />
+        <meta content="From recording to releases, touring, marketing, and promoting, music products and services are important to an artist's continued success but come with a cost that may be beyond an artist's reach. But you don't have to compromise because of a lack of finances. Sign up with Bump to get funding for your business" property="og:description" />
+        <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="og:image" />
+        <meta content="Bump - Get Micro-Advances To Fund Your Music. Keep 100% Ownership" property="twitter:title" />
+        <meta content="From recording to releases, touring, marketing, and promoting, music products and services are important to an artist's continued success but come with a cost that may be beyond an artist's reach. But you don't have to compromise because of a lack of finances. Sign up with Bump to get funding for your business" property="twitter:description" />
+        <meta content="https://res.cloudinary.com/alex-munayyer/image/upload/v1621459990/Bump/images/SEO_image-alt1-v2_hhmjjh.png" property="twitter:image" />
+        <meta property="og:type" content="website" />
+        <meta content="summary_large_image" name="twitter:card" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        {/* favicon*/}
+        <link href="images/favicon.png" rel="icon" type="image/png" />
+
+
         <meta name="description" content />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
@@ -309,3 +326,5 @@ export default function Index() {
     </div>
   )
 }
+
+//What is everything we want to enable

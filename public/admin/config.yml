@@ -8,16 +8,9 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    - label: "Home"
-      name: "home"
+    - label: "Home Page Content"
+      name: "Home Page Content"
       file: "content/home.md"
       fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
+        - { label: "Title Tag", name: "titleTag", widget: "string"}
+        - { label: "Meta Description", name: "metaDescription", widget: "string"}
