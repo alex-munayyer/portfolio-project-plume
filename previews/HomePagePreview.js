@@ -1,3 +1,5 @@
+import React from 'react'
+
 /*const HomePagePreview = ({ entry }) => {
     const titleTag = entry.getIn(['data', 'titleTag']);
     const metaDescription = entry.getIn(['data', 'metaDescription']);
