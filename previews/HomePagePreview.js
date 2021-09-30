@@ -1,5 +1,3 @@
-//import Head from 'next/head'
-
 const HomePagePreview = ({ entry }) => {
     /*const titleTag = entry.getIn(['data', 'titleTag']);
     const metaDescription = entry.getIn(['data', 'metaDescription']);
@@ -10,9 +8,9 @@ const HomePagePreview = ({ entry }) => {
     const twitterDescription = entry.getIn(['data', 'twitterDescription']);
     const twitterImage = entry.getIn(['data', 'twitterImage']);*/
     //const sectionOneDescription = entry.getIn(['data', 'sectionOneDescription']);
-    const sectionSixHeadline = entry.getIn(['data', 'sectionSixHeadline']);
-    const sectionSixDescription = entry.getIn(['data', 'sectionSixDescription']);
-    const sectionSixImage = entry.getIn(['data', 'sectionSixImage']);
+    //const sectionSixHeadline = entry.getIn(['data', 'sectionSixHeadline']);
+    //const sectionSixDescription = entry.getIn(['data', 'sectionSixDescription']);
+    //const sectionSixImage = entry.getIn(['data', 'sectionSixImage']);
 
     return (
         <div>
