@@ -305,8 +305,8 @@ export default function Index() {
           </section>
         </section>
       </div>
-      <Script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
-      <Script>
+      <Script id="script-1" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></Script>
+      <Script id="script-2">
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
             if (!user) {
